@@ -2,11 +2,11 @@ Gem::Specification.new do |s|
   s.name = 'logstash-filter-geo'
   s.version         = '0.1.0'
   s.licenses = ['Apache License (2.0)']
-  s.summary = "This example filter replaces the contents of the message field with the specified value."
+  s.summary = "This filter mutates two properties labled lat and lon and converts the values to float and assigns them to an elasticsearch field with type geo_point."
   s.description     = "This gem is a Logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/logstash-plugin install gemname. This gem is not a stand-alone program"
-  s.authors = ["Elastic"]
-  s.email = 'info@elastic.co'
-  s.homepage = "http://www.elastic.co/guide/en/logstash/current/index.html"
+  s.authors = ["Carlo Costantini","Elastic"]
+  s.email = 'carlo@carlocostantini.ca'
+  s.homepage = "https://github.com/fifteen3/logstash-filter-geo"
   s.require_paths = ["lib"]
 
   # Files
